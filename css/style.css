@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  #popUpDiv{
+            display: none;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            width: 1378px;
+            height:457px;
+            background-color: white;
+    background-image: url('../images/badend.gif');
+            
+  
+          }
+  
+  
+          #closeButton{
+             position:absolute;
+             top:0;
+            right:0;
+          }
+  
+  #dongsim {
+    height: 90%
+      
+  }
+  
+  #panels {
+    display: inline;
+  }
+  
+  #title {
+    
+  }
+  
+  #copyright {
+   
+    
+    justify-content: center;
+      
+  }
+  
+  #panel1:hover {
+    cursor: pointer;
+  }
+  
+  #panel2:hover {
+    cursor: pointer;
+  }
+  
+  #panel3:hover {
+    cursor: pointer;
+  }
+  
+  #panel1 {
+    border: solid black 3px;
+  }
+  
+  #panel2 {
+    border: solid black 3px;
+  }
+  
+  #panel3 {
+    border: solid black 3px;
+  }
+  
+  #panel1, #panel2, #panel3 {
+    width: 450px;
+    height: 450px;
+  }
+  
+  .restart {
+    padding:20px;
+
+  }
+
+  .clicked {
+    pointer-events: none;
+ }
